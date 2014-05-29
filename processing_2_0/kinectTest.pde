@@ -70,8 +70,8 @@ void setup() {
 
         // get access to kinect sensor
         context = Context.createFromXmlFile(
-          SAMPLE_XML_FILE, 
-          scriptNode);
+            SAMPLE_XML_FILE, 
+            scriptNode);
         
         // depth setup...
         depthGen = DepthGenerator.create(context);
@@ -100,11 +100,11 @@ void setup() {
 
 void draw() {
     
-	// if it is not refresh time...
+    // if it is not refresh time...
     if (time < LAYER_REFRESH_TIME) {
 		
-		// updates scene layer colors
-		_update(); 
+	// updates scene layer colors
+	_update(); 
 		
         // draws the layer onto the screen
         loadPixels();
