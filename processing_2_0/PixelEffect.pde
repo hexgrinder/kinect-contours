@@ -3,7 +3,7 @@ PixelEffect.pde
 
 Static helper class that contains pixel effects.
 
-@author Michael Layman
+@author hexgrinder
 */
 public static class PixelEffect {
 
